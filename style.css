@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 24px;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  background-color: white;
+}
+.header-logo {
+  display: flex;
+}
+.header-img {
+  width: 68px;
+}
+.fullname {
+  margin-left: 12px;
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style-type: none;
+  margin-left: 48px;
+  text-transform: uppercase;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.menu {
+  padding-right: 128px;
+}
+#home {
+  height: 800px;
+  background-image: url("img/colorful-background.jpg"), url("img/noise.png");
+  background-size: cover;
+  opacity: 0.5;
+}
+.home-introduction {
+  position: absolute;
+  top: 50%;
+  width: 600px;
+  left: 30%;
+  font-weight: 800;
+  font-size: 24px;
+}
+#projects {
+  background-image: url(img/about-background.jpg);
+}
+.about-me h2,
+.projects-header h2,
+.contact-header h2 {
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+.about-me,
+.projects-header,
+.contact-header {
+  margin-left: 45%;
+  width: fit-content;
+  text-transform: uppercase;
+}
+.about-me hr,
+.projects-header hr,
+.contact-header hr {
+  border: 3px solid #636363;
+  width: 198px;
+  border-radius: 50%;
+}
+
+.skills-container {
+  display: flex;
+}
+.hard-skills {
+  flex: 1;
+}
+.soft-skills {
+  flex: 1;
+}
+.hard-skills h4 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.soft-skills h4 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.hard-skills hr,
+.soft-skills hr {
+  border: 3px solid #636363;
+  width: 156px;
+  border-radius: 50%;
+}
+.hard-skills ul li,
+.soft-skills ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px 0 10px 20px;
+  border-bottom: 2px solid #606887;
+  width: 400px;
+}
+.hard-skills ul,
+.soft-skills ul {
+  margin: 40px 0 0 90px;
+}
+#projects,
+#contact {
+  margin-top: 120px;
+}
+.ameria,
+.todo-img {
+  width: 50%;
+  margin-left: 25%;
+}
+.projects-container {
+  display: flex;
+  margin-top: 64px;
+}
+.project-ameria,
+.project-todo {
+  flex: 1;
+}
+.contact-container span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-container a {
+  color: #a09898;
+  text-decoration: none;
+}
+.contact-container {
+  margin: 46px 136px;
+}
+footer {
+  margin-top: 100px;
+  height: 120px;
+  background-color: #a5a5a5;
+}
+footer img {
+  width: 36px;
+  margin-top: 36px;
+}
+.footer-content {
+  text-align: center;
+}
